@@ -10,3 +10,15 @@ for (message of messages) {
     console.log(message.split('').reverse().join(''));
     console.log("\n");
 }
+
+// Task 2
+let newMessages = [
+    "Remember to do your best.",
+    "Trying is the first step to succeeding.",
+    "You can do it!"
+];
+
+for (message of newMessages) {
+    console.log(message.split('').reverse().join(''));
+    console.log("\n");
+}
